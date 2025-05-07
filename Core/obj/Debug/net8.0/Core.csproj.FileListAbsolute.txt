@@ -9,3 +9,15 @@ D:\Courses\Egypt Pioneers (DEPI)\Techniacl\Project\Final Project\EcommerceProjec
 D:\Courses\Egypt Pioneers (DEPI)\Techniacl\Project\Final Project\EcommerceProject\Core\obj\Debug\net8.0\refint\Core.dll
 D:\Courses\Egypt Pioneers (DEPI)\Techniacl\Project\Final Project\EcommerceProject\Core\obj\Debug\net8.0\Core.pdb
 D:\Courses\Egypt Pioneers (DEPI)\Techniacl\Project\Final Project\EcommerceProject\Core\obj\Debug\net8.0\ref\Core.dll
+C:\Projects\Core\bin\Debug\net8.0\Core.deps.json
+C:\Projects\Core\bin\Debug\net8.0\Core.dll
+C:\Projects\Core\bin\Debug\net8.0\Core.pdb
+C:\Projects\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+C:\Projects\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+C:\Projects\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+C:\Projects\Core\obj\Debug\net8.0\Core.sourcelink.json
+C:\Projects\Core\obj\Debug\net8.0\Core.dll
+C:\Projects\Core\obj\Debug\net8.0\refint\Core.dll
+C:\Projects\Core\obj\Debug\net8.0\Core.pdb
+C:\Projects\Core\obj\Debug\net8.0\ref\Core.dll

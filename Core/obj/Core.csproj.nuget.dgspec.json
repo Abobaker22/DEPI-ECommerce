@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Courses\\Egypt Pioneers (DEPI)\\Techniacl\\Project\\Final Project\\EcommerceProject\\Core\\Core.csproj": {}
+    "C:\\Projects\\Core\\Core.csproj": {}
   },
   "projects": {
-    "D:\\Courses\\Egypt Pioneers (DEPI)\\Techniacl\\Project\\Final Project\\EcommerceProject\\Core\\Core.csproj": {
+    "C:\\Projects\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Courses\\Egypt Pioneers (DEPI)\\Techniacl\\Project\\Final Project\\EcommerceProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Projects\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\Courses\\Egypt Pioneers (DEPI)\\Techniacl\\Project\\Final Project\\EcommerceProject\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
-        "outputPath": "D:\\Courses\\Egypt Pioneers (DEPI)\\Techniacl\\Project\\Final Project\\EcommerceProject\\Core\\obj\\",
+        "projectPath": "C:\\Projects\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\mhalk\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\C Partition New Hard\\Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mhalk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -42,7 +42,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,7 +1,10 @@
-using ECommerce.Data;
+﻿using ECommerce.Data;
 using EcommerceProject.DAL.IdentityApplication;
+using EcommerceProject.DAL.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using EcommerceProject.DAL.UnitOfWork;
+
 namespace EcommerceProject.Presentation
 {
     public class Program
@@ -9,17 +12,15 @@ namespace EcommerceProject.Presentation
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+             // أضف هذا الـ using لو مش موجود
 
-            // Add services to the container.
             builder.Services.AddControllersWithViews();
-
+            builder.Services.AddScoped<EcommerceProject.Presentation.Services.Interfaces.IWishlistService, EcommerceProject.Presentation.Services.WishlistService>();
+            builder.Services.AddScoped<EcommerceProject.Presentation.Services.Interfaces.IReviewService, EcommerceProject.Presentation.Services.ReviewService>();
             var con = builder.Configuration.GetConnectionString("con");
             builder.Services.AddDbContext<EcommerceContext>(options => options.UseSqlServer(con));
-
-            // Register Identity
-            builder.Services.AddIdentity<ApplicationUser, ApplicationRole>()
-                .AddEntityFrameworkStores<EcommerceContext>(); // to make it register with my DbContext
-
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>(); // أضف هذا السطر
+            builder.Services.AddIdentity<ApplicationUser, ApplicationRole>().AddEntityFrameworkStores<EcommerceContext>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

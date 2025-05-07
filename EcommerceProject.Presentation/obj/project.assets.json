@@ -7804,23 +7804,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ahmed\\.nuget\\packages\\": {},
-    "D:\\C Partition New Hard\\Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\mhalk\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Courses\\Egypt Pioneers (DEPI)\\Techniacl\\Project\\Final Project\\EcommerceProject\\EcommerceProject.Presentation\\EcommerceProject.Presentation.csproj",
+      "projectUniqueName": "C:\\Projects\\EcommerceProject.Presentation\\EcommerceProject.Presentation.csproj",
       "projectName": "EcommerceProject.Presentation",
-      "projectPath": "D:\\Courses\\Egypt Pioneers (DEPI)\\Techniacl\\Project\\Final Project\\EcommerceProject\\EcommerceProject.Presentation\\EcommerceProject.Presentation.csproj",
-      "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
-      "outputPath": "D:\\Courses\\Egypt Pioneers (DEPI)\\Techniacl\\Project\\Final Project\\EcommerceProject\\EcommerceProject.Presentation\\obj\\",
+      "projectPath": "C:\\Projects\\EcommerceProject.Presentation\\EcommerceProject.Presentation.csproj",
+      "packagesPath": "C:\\Users\\mhalk\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\EcommerceProject.Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\C Partition New Hard\\Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mhalk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7835,11 +7835,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Courses\\Egypt Pioneers (DEPI)\\Techniacl\\Project\\Final Project\\EcommerceProject\\Core\\Core.csproj": {
-              "projectPath": "D:\\Courses\\Egypt Pioneers (DEPI)\\Techniacl\\Project\\Final Project\\EcommerceProject\\Core\\Core.csproj"
+            "C:\\Projects\\Core\\Core.csproj": {
+              "projectPath": "C:\\Projects\\Core\\Core.csproj"
             },
-            "D:\\Courses\\Egypt Pioneers (DEPI)\\Techniacl\\Project\\Final Project\\EcommerceProject\\EcommerceProject.DAL\\EcommerceProject.DAL.csproj": {
-              "projectPath": "D:\\Courses\\Egypt Pioneers (DEPI)\\Techniacl\\Project\\Final Project\\EcommerceProject\\EcommerceProject.DAL\\EcommerceProject.DAL.csproj"
+            "C:\\Projects\\EcommerceProject.DAL\\EcommerceProject.DAL.csproj": {
+              "projectPath": "C:\\Projects\\EcommerceProject.DAL\\EcommerceProject.DAL.csproj"
             }
           }
         }
@@ -7852,7 +7852,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
+        "auditMode": "all"
       },
       "SdkAnalysisLevel": "9.0.100"
     },
@@ -7890,8 +7890,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Text.Json' 7.0.3 has a known high severity vulnerability, https://github.com/advisories/GHSA-hh2w-p6rv-4g7w",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

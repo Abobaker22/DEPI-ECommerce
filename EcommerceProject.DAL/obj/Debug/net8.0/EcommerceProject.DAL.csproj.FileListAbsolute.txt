@@ -13,3 +13,19 @@ D:\Courses\Egypt Pioneers (DEPI)\Techniacl\Project\Final Project\EcommerceProjec
 D:\Courses\Egypt Pioneers (DEPI)\Techniacl\Project\Final Project\EcommerceProject\EcommerceProject.DAL\obj\Debug\net8.0\refint\EcommerceProject.DAL.dll
 D:\Courses\Egypt Pioneers (DEPI)\Techniacl\Project\Final Project\EcommerceProject\EcommerceProject.DAL\obj\Debug\net8.0\EcommerceProject.DAL.pdb
 D:\Courses\Egypt Pioneers (DEPI)\Techniacl\Project\Final Project\EcommerceProject\EcommerceProject.DAL\obj\Debug\net8.0\ref\EcommerceProject.DAL.dll
+C:\Projects\EcommerceProject.DAL\bin\Debug\net8.0\EcommerceProject.DAL.deps.json
+C:\Projects\EcommerceProject.DAL\bin\Debug\net8.0\EcommerceProject.DAL.dll
+C:\Projects\EcommerceProject.DAL\bin\Debug\net8.0\EcommerceProject.DAL.pdb
+C:\Projects\EcommerceProject.DAL\bin\Debug\net8.0\Core.dll
+C:\Projects\EcommerceProject.DAL\bin\Debug\net8.0\Core.pdb
+C:\Projects\EcommerceProject.DAL\obj\Debug\net8.0\EcommerceProject.DAL.csproj.AssemblyReference.cache
+C:\Projects\EcommerceProject.DAL\obj\Debug\net8.0\EcommerceProject.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\EcommerceProject.DAL\obj\Debug\net8.0\EcommerceProject.DAL.AssemblyInfoInputs.cache
+C:\Projects\EcommerceProject.DAL\obj\Debug\net8.0\EcommerceProject.DAL.AssemblyInfo.cs
+C:\Projects\EcommerceProject.DAL\obj\Debug\net8.0\EcommerceProject.DAL.csproj.CoreCompileInputs.cache
+C:\Projects\EcommerceProject.DAL\obj\Debug\net8.0\EcommerceProject.DAL.sourcelink.json
+C:\Projects\EcommerceProject.DAL\obj\Debug\net8.0\Ecommerc.0BEBA229.Up2Date
+C:\Projects\EcommerceProject.DAL\obj\Debug\net8.0\EcommerceProject.DAL.dll
+C:\Projects\EcommerceProject.DAL\obj\Debug\net8.0\refint\EcommerceProject.DAL.dll
+C:\Projects\EcommerceProject.DAL\obj\Debug\net8.0\EcommerceProject.DAL.pdb
+C:\Projects\EcommerceProject.DAL\obj\Debug\net8.0\ref\EcommerceProject.DAL.dll

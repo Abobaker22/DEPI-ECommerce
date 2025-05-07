@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace EcommerceProject.DAL.UnitOfWork
 {
-    internal class UnitOfWork : IUnitOfWork
+    public class UnitOfWork : IUnitOfWork
     {
         private readonly EcommerceContext _context;
         public IRepository<Car> Car { get; private set; }

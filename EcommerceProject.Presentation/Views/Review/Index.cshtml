@@ -1,0 +1,52 @@
+﻿@model IEnumerable<ECommerce.Models.Review>
+
+@{
+    ViewData["Title"] = "Car Reviews";
+    var carId = ViewBag.CarId;
+}
+
+<h1>Car Reviews</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>User</th>
+            <th>Rating</th>
+            <th>Comment</th>
+            <th>Date</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var review in Model)
+        {
+            <tr>
+                <td>@review.UserId</td>
+                <td>@review.Rating</td>
+                <td>@review.Comment</td>
+                <td>@review.CreatedAt.ToString("dd/MM/yyyy")</td>
+                <td>
+                    <form asp-action="DeleteReview" method="post">
+                        <input type="hidden" name="reviewId" value="@review.ReviewID" />
+                        <input type="hidden" name="carId" value="@carId" />
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h3>Add a Review</h3>
+<form asp-action="AddReview" method="post">
+    <input type="hidden" name="carId" value="@carId" />
+    <div class="form-group">
+        <label>Rating (1-5)</label>
+        <input type="number" name="rating" min="1" max="5" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label>Comment</label>
+        <textarea name="comment" class="form-control" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit Review</button>
+</form>
