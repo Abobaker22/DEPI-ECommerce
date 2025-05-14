@@ -1,4 +1,8 @@
-Run This Script On The Sql Server Managment Studio
+# SQL Script for CarShowroom Database
+
+## Role Insertion Script
+
+```sql
 -- Use the CarShowroom database
 USE CarShowroom;
 
